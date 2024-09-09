@@ -1,0 +1,1015 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "SoulFighter",
+				"abbreviation": "SF",
+				"full": "The Soul Fighter",
+				"version": "1.0",
+				"url": "https://www.google.com",
+				"authors": [
+					"Bard",
+					"You"
+				],
+				"convertedBy": [
+					"Bard",
+					"You"
+				]
+			}
+		],
+		"dateAdded": 1693747606,
+		"dateLastModified": 1693747606,
+		"_dateLastModifiedHash": "cb115b0a25"
+	},
+	"class": [
+		{
+			"name": "Soul Fighter",
+			"source": "SF",
+			"hd": {
+				"number": 1,
+				"faces": 10
+			},
+			"proficiency": [
+				"str",
+				"dex"
+			],
+			"startingProficiencies": {
+				"armor": [
+					"light",
+					"medium",
+					"shields"
+				],
+				"weapons": [
+					"simple",
+					"martial gloves"
+				],
+				"skills": [
+					{
+						"choose": {
+							"from": [
+								"athletics",
+								"acrobatics",
+								"survival",
+								"perception",
+								"history",
+								"insight",
+								"intimidation"
+							],
+							"count": 2
+						}
+					}
+				]
+			},
+			"startingEquipment": {
+				"additionalFromBackground": true,
+				"default": [
+					"(a) {@item scale mail|phb} or (b) {@item leather armor|phb}, {@item longbow|phb}, and 20 {@item arrows|phb}",
+					"(a) a martial weapon and a {@item shield|phb} or (b) two martial weapons",
+					"(a) a {@item light crossbow|phb} and 20 {@item bolts|phb} or (b) two simple weapons",
+					"(a) a {@item dungeoneer's pack|phb} or (b) an {@item explorer's pack|phb}"
+				]
+			},
+			"classTableGroups": [
+				{
+					"colLabels": [
+						"Soul Pool"
+					],
+					"rows": [
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							9
+						],
+						[
+							9
+						],
+						[
+							15
+						],
+						[
+							15
+						],
+						[
+							19
+						],
+						[
+							19
+						],
+						[
+							28
+						],
+						[
+							28
+						],
+						[
+							34
+						],
+						[
+							34
+						],
+						[
+							39
+						],
+						[
+							39
+						],
+						[
+							48
+						],
+						[
+							48
+						],
+						[
+							59
+						],
+						[
+							59
+						],
+						[
+							68
+						],
+						[
+							68
+						]
+					]
+				},
+				{
+					"colLabels": [
+						"Rhythm"
+					],
+					"rows": [
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							6
+						],
+						[
+							6
+						],
+						[
+							7
+						],
+						[
+							7
+						],
+						[
+							8
+						],
+						[
+							8
+						],
+						[
+							9
+						],
+						[
+							9
+						],
+						[
+							10
+						],
+						[
+							10
+						],
+						[
+							11
+						],
+						[
+							11
+						],
+						[
+							12
+						],
+						[
+							14
+						]
+					]
+				}
+			],
+			"classFeatures": [
+				"Soulful Boxing|Soul Fighter|SF|1",
+				"Soul Essences|Soul Fighter|SF|1",
+				"Spiritual Rhythmic|Soul Fighter|SF|1",
+				"Athletic Mastery|Soul Fighter|SF|1",
+				"Soul Fighter Techniques|Soul Fighter|SF|2",
+				"Soul Knuckle|Soul Fighter|SF|3",
+				"Ability Score Improvement|Soul Fighter|SF|4",
+				"Momentum Strike|Soul Fighter|SF|5",
+				"Empowered Strike: Soul's Knockout|Soul Fighter|SF|6",
+				"Soulful Dodge: Ethereal Evade|Soul Fighter|SF|7",
+				"Ability Score Improvement|Soul Fighter|SF|8",
+				"Soulful Insight: Aura of Soul's Wisdom|Soul Fighter|SF|9",
+				"Soulful Recovery: Insightful Resurgence|Soul Fighter|SF|10",
+				"Empowered Soul Aura: Prowess Infusion|Soul Fighter|SF|11",
+				"Ability Score Improvement|Soul Fighter|SF|12",
+				"Soul Cushion|Soul Fighter|SF|13",
+				"Soulful Retaliation|Soul Fighter|SF|14",
+				"Unwavering Soul|Soul Fighter|SF|15",
+				"Ability Score Improvement|Soul Fighter|SF|16",
+				"Soul's Lasting Vigor|Soul Fighter|SF|18",
+				"Soul Charge|Soul Fighter|SF|18",
+				"Ability Score Improvement|Soul Fighter|SF|19",
+				"Eternal Soul Mastery|Soul Fighter|SF|20"
+			],
+			"subclassTitle": "School of Fighting",
+			"hasFluff": true
+		}
+	],
+	"classFeature": [
+		{
+			"name": "Soulful Boxing",
+			"source": "SF",
+			"className": "Soul Fighter",
+			"classSource": "SF",
+			"level": 1,
+			"entries": [
+				"At 1st level, you start to master the art of boxing, infusing your strikes with the essence of your soul. Your punches are powerful weapons, considered magical for the purpose of overcoming resistance and immunity to non-magical attacks. If you aren't wielding any weapons or a shield, you can roll a d6 instead of the normal damage for unarmed strikes. In addition, you can choose to use either Dexterity or Strength for attacks and damage rolls with your punches. Finally, you can throw a punch using your bonus action."
+			]
+		},
+		{
+			"name": "Soul Essences",
+			"source": "SF",
+			"className": "Soul Fighter",
+			"classSource": "SF",
+			"level": 1,
+			"entries": [
+				"Choose from the following soul essences. Some soul essences have a level pre-requisite, that refers to your levels in this class. Additionally, your soul manifests in a physical form, as an aura, visible to others and taking on a color of your choosing or as determined by the GM. You also choose an element which defines the essence of your soul, known as your Primal Essence. Your soul faintly manifests around you and the equipment you wear, effectively making it weightless; you no longer include wielded equipment in your carry weight.",
+				"As you gain more levels in this class, you learn how to change the essence of your soul, unlocking new powers. At 7th level, you learn an Enhanced Essence, and at 14th level, you unlock your True Essence. Finally, at 20th level, you awaken your Quintessence, allowing your aura to be active but invisible should you wish it.",
+				"It should be noted only 1 essence is active at a time.",
+				"When you finish a short or a long rest, you can choose what type of soul essence is active, from those you have learned."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "Primal Essences",
+					"type": "entries",
+					"entries": [
+						"**Fiery Essence.** Your damage type is fire damage.",
+						"**Decaying Essence.** Your damage type is poison damage.",
+						"**Cold Essence.** Your damage type is cold damage."
+					]
+				},
+				{
+					"name": "Enhanced Essences",
+					"type": "entries",
+					"entries": [
+						"**Electric Essence.** Your damage type is lighting damage.",
+						"**Vitriolic Essence.** Your damage type is acid damage."
+					]
+				},
+				{
+					"name": "True Essences",
+					"type": "entries",
+					"entries": [
+						"**Thunderous Essence.** Your damage type is thunder damage.",
+						"**Corrupt Essence.** Your damage type is necrotic damage.",
+						"**Pure Essence.** Your damage type is radiant damage.",
+						"**Awakened Essence.** Your damage type is psychic damage."
+					]
+				},
+				{
+					"name": "Quintessence",
+					"type": "entries",
+					"entries": [
+						"Your damage type is force damage. In addition, the quintessence allow you to use your bonus action and spend 7 soul points to change your active essence by any other essence you know."
+					]
+				}
+			]
+		},
+		{
+			"name": "Spiritual Rhythmic",
+			"source": "SF",
+			"className": "Soul Fighter",
+			"classSource": "SF",
+			"level": 1,
+			"entries": [
+				"At 1st level, you begin to understand the rhythm of life around you. Whenever you connect your punches, you can build a consistent rhythm of strikes. When you roll initiative, you gain a number of rhythm points equal to your proficiency bonus. You can spend your rhythm points to fuel Rhythm abilities. Activating a Rhythm ability of a subclass costs 1 rhythm point.",
+				"Once you spend a Soul Pool point, you can only regain 1 point when you hit a creature with an unarmed strike, a glove weapon, or by using your bonus action to recover 2 rhythm points. You recover 2 points if your attack scores a critical hit.",
+				"When you hit a creature with an unarmed strike or glove weapon, you can spend any amount of rhythm points. If you do, you deal additional damage equal to 1d6 x the amount of points spent.",
+				"Additionally, your insight into living beings deepens. You gain proficiency in only 1 of your choice Wisdom (Insight) checks, Wisdom (Animal Handling) checks, or Charisma (Persuasion) checks. When you interact with creatures you have insight into, you feel like you can glimpse their soul, see who they truly are. This insight enhances your ability to interact with them, even if it's only for a moment."
+			]
+		},
+		{
+			"name": "Athletic Mastery",
+			"source": "SF",
+			"className": "Soul Fighter",
+			"classSource": "SF",
+			"level": 1,
+			"entries": [
+				"You exhibit remarkable athleticism and agility. You can add half your proficiency bonus, rounded up, to any Strength or Dexterity check you make that doesn't already use your proficiency bonus.",
+				"Additionally, your athleticism extends to your physical feats. When you make a running long jump, the distance you can cover increases by a number of feet equal to your Strength modifier.",
+				"You also gain proficiency in the Acrobatics and Athletics skills. If you are already proficient in these skills, your proficiency bonus will be doubled (choose only one to double if you already have proficiency in both).",
+				"Your training has also increased your speed and agility. You gain a bonus to your movement speed equal to 10 feet. Additionally, you may use Strength instead of Dexterity for determining initiative."
+			]
+		},
+		{
+			"name": "Soul Fighter Techniques",
+			"source": "SF",
+			"className": "Soul Fighter",
+			"classSource": "SF",
+			"level": 2,
+			"entries": [
+				"At 2nd level, you master a set of techniques that blend your boxing prowess with the power of your soul, enabling you to perform extraordinary feats."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "Soulful Tricks",
+					"type": "entries",
+					"entries": [
+						"You learn three soulful tricks: Quick Footwork, Feint, and Lunge. You can use these tricks as a bonus action, and you recover 1 Soul Pool point when you do so.",
+						"**Quick Footwork:** You can dance quickly through the battlefield, taking the Disengage action as a bonus action.",
+						"**Feint:** You can make a Dexterity (Sleight of Hand) check, contested by your target's Wisdom (Insight) check. On a success, you gain advantage on the next unarmed strike or glove weapon attack you make.",
+						"**Lunge:** Your unarmed strikes gain the benefits of reach until the end of your turn."
+					]
+				},
+				{
+					"name": "Soul Power",
+					"type": "entries",
+					"entries": [
+						"Starting at 2nd level, you can draw power from your vital energy, your soul, represented by a pool of soul points. Your Soul Fighter level determines the number of soul points you have. You can spend these points to fuel various soul features, such as Soul Infusion.",
+						"When you spend a soul point, it is unavailable until you finish a long rest, at the end of which you let your body restore its vitality.",
+						"Some of your soul features require your target to make a saving throw to resist the feature's effects. The saving throw DC is calculated as follows:",
+						"Soul save DC = 8 + your proficiency bonus + your Constitution modifier"
+					]
+				},
+				{
+					"name": "Soul Infusion",
+					"type": "entries",
+					"entries": [
+						"You learn how to imbue your soul energy into your weapon. When you hit a creature with a weapon attack, you can expend soul points to deal elemental damage to the target, in addition to the weapon's damage. The type of damage done is the same as the essence currently active, determined by your Soul Enlightenment feature. The number of points determines the additional damage dealt, according to a table (not provided here). At 9th level, your Soul Infusion damage die becomes a d8, as you understand how to better utilize your soul.",
+						{
+							"type": "table",
+							"colLabels": [
+								"Damage",
+								"Soul Cost"
+							],
+							"rows": [
+								[
+									"2d6",
+									2
+								],
+								[
+									"3d6",
+									3
+								],
+								[
+									"4d6",
+									4
+								],
+								[
+									"5d6",
+									5
+								],
+								[
+									"6d6",
+									6
+								],
+								[
+									"7d6",
+									7
+								]
+							]
+						},
+						"At the 9th level In addition, your Soul Infusion damage die is now a d8 from understanding how to better utilize your soul."
+					]
+				}
+			]
+		},
+		{
+			"name": "Soul Knuckle",
+			"source": "SF",
+			"className": "Soul Fighter",
+			"classSource": "SF",
+			"level": 3,
+			"entries": [
+				"Your soul manifests in an aura around you, giving off a faint glow in the elemental color you chose. Enemies and allies can see this aura and are aware of it. You can choose to activate it or turn it off, which takes a bonus action. The aura extends 10 feet from you in every direction, but not through total cover."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "Power Punch",
+					"type": "entries",
+					"entries": [
+						"**3rd Level:** When you hit a creature with an unarmed strike on your turn, you can use your bonus action to make a Power Punch. On a hit, your power punch causes its normal damage, plus additional damage equal to 1d6 per Soul Pool point you currently have. Doing so doesn't spend your rhythm."
+					]
+				},
+				{
+					"name": "School of Fighting",
+					"type": "entries",
+					"entries": [
+						"**3rd Level:** You learn and follow one of two distinct soul Schools, enhancing your combat abilities. Choose between the following schools of combat for the Soul Knuckle: Soul Striker-Puncher and Soulful Saint's Boxing. You gain features from your chosen school at 3rd, 7th, 14th, and 17th levels."
+					]
+				},
+				{
+					"name": "Soul Aura",
+					"type": "entries",
+					"entries": [
+						"**Reaction:** You can spend 2 Soul Pool points to generate one of the following effects:",
+						"  * **Dismay:** Imposes disadvantage on one melee attack roll, Strength or Dexterity check, or Strength or Dexterity saving throw made by a creature within your aura.",
+						"  * **Empowerment:** Grants advantage on one melee attack roll, Strength or Dexterity check, or Strength or Dexterity saving throw made by a creature within your aura.",
+						"**14th Level:** Spend 7 Soul Pool points and use your reaction to empower all allies within your aura or cause dismay for all enemies.",
+						"**18th Level:** The range of your aura increases to 30 feet, and you can activate it without spending an action."
+					]
+				}
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "SF",
+			"className": "Soul Fighter",
+			"classSource": "SF",
+			"level": 4,
+			"entries": [
+				"When you reach 4th level, and again at 8th, 12th, 16th and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+			]
+		},
+		{
+			"name": "Momentum Strike",
+			"source": "SF",
+			"className": "Soul Fighter",
+			"classSource": "SF",
+			"level": 5,
+			"entries": [
+				"**5th Level:** You can throw punches in quick succession by spending your rhythm points. When you take the Attack action, you can throw one additional punch for each 3 rhythm points you spend. Additionally, whenever you are hit by a melee weapon attack, you can use your reaction and 1 rhythm point to halve the damage. If the attack deals bludgeoning damage, you can spend 2 Soul Pool points and use your reaction to reduce the damage to 0."
+			]
+		},
+		{
+			"name": "Empowered Strike: Soul's Knockout",
+			"source": "SF",
+			"className": "Soul Fighter",
+			"classSource": "SF",
+			"level": 6,
+			"entries": [
+				"**6th Level:** With your Power Punch, you can choose to spend 2 Soul Pool points to force the target to make a Constitution saving throw (DC 8 + your proficiency bonus + your Strength or Dexterity modifier). On a failed save, the target is stunned until the end of your next turn.",
+				"Your soul begins to empower you and your allies. Whenever you or a friendly creature within your soul aura must make a saving throw, the creature gains a bonus to the saving throw equal to your Constitution modifier (with a minimum bonus of +1). You must be conscious to grant this bonus. This bonus is not cumulative with any other type of bonus to saving throw granted by other similar features, like the paladin's aura of protection feature."
+			]
+		},
+		{
+			"name": "Soulful Dodge: Ethereal Evade",
+			"source": "SF",
+			"className": "Soul Fighter",
+			"classSource": "SF",
+			"level": 7,
+			"entries": [
+				"Starting at 7th level, when a creature within 5 feet makes a melee weapon attack against you, you can spend 1 rhythm point as a reaction to make a Dexterity saving throw against the result of the attack. On a success, you manage to avoid the attack, causing the attack to miss."
+			]
+		},
+		{
+			"name": "Soulful Insight: Aura of Soul's Wisdom",
+			"source": "SF",
+			"className": "Soul Fighter",
+			"classSource": "SF",
+			"level": 9,
+			"entries": [
+				"At 9th level, your grasp of the soul grows, you’ve come to understand yourself, and others, even more.",
+				"Creatures in your aura cannot conceal from you their true intentions and you have some limited sway over their soul. When attempting to gain insight into a creature, you can read their soul. You gain advantage when making Wisdom (Insight), or Charisma (Persuasion), checks on humanoids inside your aura range.",
+				"Furthermore this extends to animals and other creatures as well, should you attempt to interact with them you have some ability to manipulate their soul, giving you advantage on Wisdom (Animal Handling) rolls against creatures inside your aura range.",
+				"Making a check in this way uses 2 Soul Pool Points"
+			]
+		},
+		{
+			"name": "Soulful Recovery: Insightful Resurgence",
+			"source": "SF",
+			"className": "Soul Fighter",
+			"classSource": "SF",
+			"level": 10,
+			"entries": [
+				"When you are reduced to 0 hit points, you are not incapacitated. You still must make Death saving throws and still die if you fail three times. Additionally, you have advantage on saving throws against the stunned condition.",
+				"You begin to see the world for what it truly is. You automatically know the location of anything that has a soul within your soul area, gaining blindsight within your Soul Aura area.",
+				"You can also see the manifestations of others' souls. You use your bonus action to make a Wisdom (Insight) check against a creature within your aura range, resisted by the creature's Charisma (Deception) check, to gain insight into its reasoning, its emotional state, and something that looms large in its mind.",
+				"At 20th level, you also gain truesight inside your Soul Aura area."
+			]
+		},
+		{
+			"name": "Empowered Soul Aura: Prowess Infusion",
+			"source": "SF",
+			"className": "Soul Fighter",
+			"classSource": "SF",
+			"level": 11,
+			"entries": [
+				"You can use your action and spend 5 soul points to empower your soul aura. You must spend 1 soul point for each turn you keep your aura empowered after the first. Any hostile creature that starts its turn within your aura area or moves towards it takes damage equal to your Constitution modifier, from the damage type determined by your elemental damage. You can also use this feature to cause all friendly creatures that start their turn within your aura area (except you) or move towards it to regain a number of hit points equal to your Constitution modifier. Swapping the aura from attack to healing or vice versa requires an action and an additional 6 soul points. You cannot add the damage of soul infusions to this damage.",
+				"Whenever you make a Strength, Dexterity, or Constitution check, you can treat a d20 roll of 9 or lower as a 10.",
+				"In addition, when you make a Strength, Dexterity, or Constitution saving throw, you can use your reaction to reroll that save, using the new result. Doing so spends all your Soul pool, and you can't do it again until you finish a short or long rest"
+			]
+		},
+		{
+			"name": "Soul Cushion",
+			"source": "SF",
+			"className": "Soul Fighter",
+			"classSource": "SF",
+			"level": 13,
+			"entries": [
+				"At the 13th level, your soul begins to envelop you providing you with a shield from effects you can see. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you can instead take no damage on a success, and only half damage if you fail."
+			]
+		},
+		{
+			"name": "Soulful Retaliation",
+			"source": "SF",
+			"className": "Soul Fighter",
+			"classSource": "SF",
+			"level": 14,
+			"entries": [
+				"Starting at 14th level, when you take damage from a creature that is within 5 feet of you, you can use your reaction to make a melee attack against that creature.",
+				"You can use Momentum Strike and Counter as part of the same reaction."
+			]
+		},
+		{
+			"name": "Unwavering Soul",
+			"source": "SF",
+			"className": "Soul Fighter",
+			"classSource": "SF",
+			"level": 15,
+			"entries": [
+				"Your Soul can keep you fighting despite grievous wounds. If you drop to 0 hit points while your Soul Aura is active and don't die outright, you drop to 1 hit point instead and you gain proficiency in Constitution saving throws in addition, you add your proficiency bonus to Death Saving Throws. If your roll is a total of 20 or higher (adding the proficiency) you regain 1 hit point.",
+				"Once you use this feature, you can't use it again until you finish a long rest, alternatively you may spend 12 soul points should you need to use it again if you have not completed a long rest."
+			]
+		},
+		{
+			"name": "Soul's Lasting Vigor",
+			"source": "SF",
+			"className": "Soul Fighter",
+			"classSource": "SF",
+			"level": 18,
+			"entries": [
+				"You have mastered the art of soul manipulation and survival. When a creature with a CR3 or higher is reduced to 0 hit points within 30 feet of you, you regain 4 soul points. A piece of their soul lives on within you, honoring their memory.",
+				"Additionally, you attain the pinnacle of resilience in battle. At the start of each of your turns, you regain hit points equal to 5 + your Constitution modifier if you have no more than half of your hit points left. You don't gain this benefit if you have 0 hit points."
+			]
+		},
+		{
+			"name": "Soul Charge",
+			"source": "SF",
+			"className": "Soul Fighter",
+			"classSource": "SF",
+			"level": 18,
+			"entries": [
+				"At 18th level, you can use your action and spend 8 soul points to have your soul aura become elementally charged. All Creatures other than yourself in your aura take damage equal to 7d8 + your Constitution modifier. The damage type is the same of your Soul Infusion feature. A success on a saving throw against your soul save DC reduces this damage to half. Allies who make this save do not gain the benefit of your Soul Empowerment to the save.",
+				"Alternatively you can use your bonus action and spend 14 Soul points to heal all allies with if range by 3d8 + your Constitution modifier.",
+				"If you charge your aura you lose the benefit of empowering it."
+			]
+		},
+		{
+			"name": "Eternal Soul Mastery",
+			"source": "SF",
+			"className": "Soul Fighter",
+			"classSource": "SF",
+			"level": 20,
+			"entries": [
+				"You have achieved the pinnacle of your soul fighting abilities. You can use a bonus action to Siphon your enemies' souls. For 1 minute, enemies within your aura have a penalty to their saving throws equal to your aura bonus from Empowered Strike: Soul's Knockout. Once you use this feature, you can't do it again until you finish a long rest.",
+				"Additionally, the souls of those you have siphoned have granted you the additional benefit of keeping you youthful, making you immune to the effects of aging and to spells and effects that would age you until you complete a long rest.",
+				"When you reach the 20th level, you can choose two abilities from Strength, Dexterity, or Constitution to increase by 4. Your ability score maximums for Strength, Dexterity, and Constitution increase to 24."
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Soul Striker-Puncher",
+			"shortName": "Striker-Puncher",
+			"source": "SF",
+			"className": "Soul Fighter",
+			"classSource": "SF",
+			"subclassFeatures": [
+				"Soulful Tactics|Soul Fighter|SF|Striker-Puncher|SF|3",
+				"Soulful Energy|Soul Fighter|SF|Striker-Puncher|SF|3",
+				"Enhanced Soul Actions|Soul Fighter|SF|Striker-Puncher|SF|3",
+				"Bravery Aura|Soul Fighter|SF|Striker-Puncher|SF|7",
+				"Tactical Punches|Soul Fighter|SF|Striker-Puncher|SF|9",
+				"Soulful Dominance|Soul Fighter|SF|Striker-Puncher|SF|14",
+				"Soulful Resilience|Soul Fighter|SF|Striker-Puncher|SF|17"
+			]
+		},
+		{
+			"name": "Soulful Saint's Boxing",
+			"shortName": "Saint's Boxing",
+			"source": "SF",
+			"className": "Soul Fighter",
+			"classSource": "SF",
+			"subclassFeatures": [
+				"Step Out|Soul Fighter|SF|Saint's Boxing|SF|3",
+				"Rhythm Abilities|Soul Fighter|SF|Saint's Boxing|SF|3",
+				"Soul Healing|Soul Fighter|SF|Saint's Boxing|SF|3",
+				"Bound to Live|Soul Fighter|SF|Saint's Boxing|SF|7",
+				"Quick Retreat|Soul Fighter|SF|Saint's Boxing|SF|9",
+				"Soulful Skirmisher|Soul Fighter|SF|Saint's Boxing|SF|14",
+				"Soulful Reflexes|Soul Fighter|SF|Saint's Boxing|SF|17"
+			]
+		},
+		{
+			"name": "Soulful Tactics",
+			"source": "SF",
+			"className": "Soul Fighter",
+			"classSource": "SF",
+			"subclassShortName": "Striker-Puncher",
+			"subclassSource": "SF",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"When you choose this style at 3rd level, you gain access to a unique set of maneuvers and soul actions, blending the techniques of both the boxer-puncher and the Soul Warrior.",
+				{
+					"type": "entries",
+					"name": "Maneuvers",
+					"entries": [
+						"You learn three maneuvers of your choice, blending the tactical strikes of a boxer-puncher with the soul-infused techniques of a Soul Warrior. These maneuvers enhance your melee attacks in various ways. You can use only one maneuver per melee attack, and the attacks you enhance with maneuvers must be melee attacks. You learn two additional maneuvers of your choice at 9th, 13th, and 17th level. Each time you learn new maneuvers, you can also replace one maneuver you know with a different one.",
+						{
+							"type": "table",
+							"colLabels": [
+								"Maneuver",
+								"Description"
+							],
+							"rows": [
+								[
+									"Disarming Attack",
+									"When you hit a creature with a weapon attack, you can expend one superiority die to attempt to disarm the target, forcing it to drop one item of your choice that it's holding. You add the superiority die to the attack's damage roll, and the target must make a Strength saving throw. On a failed save, it drops the object you choose. The object lands at its feet."
+								],
+								[
+									"Distracting Strike",
+									"When you hit a creature with a weapon attack, you can expend one superiority die to distract the creature, giving your allies an opening. You add the superiority die to the attack's damage roll. The next attack roll against the target by an attacker other than you has advantage if the attack is made before the end of your next turn."
+								],
+								[
+									"Evasive Footwork",
+									"When you move, you can expend one superiority die to increase your speed by 10 feet until the end of the current turn. When you use this maneuver, you can't be knocked prone until the end of the current turn."
+								],
+								[
+									"Feinting Attack",
+									"When you hit a creature with a weapon attack, you can expend one superiority die to feint, adding the superiority die to the attack's damage roll. The next attack roll against the target by you or an attacker other than you has advantage if the attack is made before the end of your next turn."
+								],
+								[
+									"Goading Attack",
+									"When you hit a creature with a weapon attack, you can expend one superiority die to attempt to goad the target into attacking you. You add the superiority die to the attack's damage roll, and the target must make a Wisdom saving throw. On a failed save, the target has disadvantage on all attack rolls against targets other than you until the end of your next turn."
+								],
+								[
+									"Lunging Attack",
+									"When you make a melee weapon attack on your turn, you can expend one superiority die to increase your reach for that attack by 5 feet. If you hit, you add the superiority die to the attack's damage roll."
+								],
+								[
+									"Menacing Attack",
+									"When you hit a creature with a weapon attack, you can expend one superiority die to attempt to frighten the target. You add the superiority die to the attack's damage roll, and the target must make a Wisdom saving throw. On a failed save, the target is frightened of you until the end of your next turn."
+								],
+								[
+									"Parry",
+									"When another creature damages you with a melee attack, you can use your reaction and expend one superiority die to reduce the damage by the number you roll on your superiority die + your Dexterity modifier."
+								],
+								[
+									"Precision Attack",
+									"When you make a weapon attack, you can expend one superiority die to add it to the attack roll. You can choose to use this maneuver after the attack roll but before the DM says whether the attack hits or misses."
+								],
+								[
+									"Pushing Attack",
+									"When you hit a creature with a weapon attack, you can expend one superiority die to attempt to push the target back. You add the superiority die to the attack's damage roll, and the target must make a Strength saving throw. On a failed save, you push the target up to 10 feet away from you."
+								],
+								[
+									"Riposte",
+									"When a creature misses you with a melee attack, you can use your reaction and expend one superiority die to make a melee weapon attack against the creature. If you hit, you add the superiority die to the attack's damage roll."
+								],
+								[
+									"Sweeping Attack",
+									"When you hit a creature with a melee weapon attack, you can expend one superiority die to attempt to damage another creature with the same attack. Choose another creature within 5 feet of the original target and within your reach. If the original attack roll would hit the second creature, you hit it. You add the superiority die to the attack's damage roll."
+								],
+								[
+									"Trip Attack",
+									"When you hit a creature with a weapon attack, you can expend one superiority die to attempt to knock the target down. You add the superiority die to the attack's damage roll, and the target must make a Strength saving throw. On a failed save, you knock the target prone."
+								]
+							]
+						}
+					]
+				},
+				{
+					"name": "Superiority Dice",
+					"type": "entries",
+					"entries": [
+						"You have four superiority dice, which are d8s. A superiority die is expended when you use it. You regain all of your expended superiority dice when you finish a short or long rest. You gain another superiority die at 9th level and one more at 17th level. The size of the dice also increases, becoming a d10 at 9th level and a d12 at 17th level."
+					]
+				},
+				{
+					"name": "Saving Throws",
+					"type": "entries",
+					"entries": [
+						"Some of your maneuvers require your target to make a saving throw to resist the maneuver's effects. The saving throw DC is calculated as follows: Maneuver save DC = 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice)."
+					]
+				}
+			]
+		},
+		{
+			"name": "Soulful Energy",
+			"source": "SF",
+			"className": "Soul Fighter",
+			"classSource": "SF",
+			"subclassShortName": "Striker-Puncher",
+			"subclassSource": "SF",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"At 3rd level, you gain the ability to infuse your attacks with soulful energy, granting you temporary hit points equal to your level in this class when you finish a long rest. This represents your ability to channel your soul's power into your physical form, enhancing your combat capabilities."
+			]
+		},
+		{
+			"name": "Enhanced Soul Actions",
+			"source": "SF",
+			"className": "Soul Fighter",
+			"classSource": "SF",
+			"subclassShortName": "Striker-Puncher",
+			"subclassSource": "SF",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"You have learned to harness your soul and use it in a variety of different forms, much like a Soul Warrior. The range of your soul actions increases with each empowerment, and each Soul Actions has your Strength modifier added to the damage. Allies hit by your Soul Actions that deal damage cannot benefit from your Soul Empowerment to help succeed on the saving throw. At 3rd level, you learn Soul Bullet and one additional Soul Action of your choice at 7th (2), 14th (3), and 17th (4) levels. At 20th level, you can replace two actions you know after a long rest. Additionally, you can use your bonus action to apply the effects of Soul Infusion to soul attacks, except for soul bullets."
+			]
+		},
+		{
+			"name": "Bravery Aura",
+			"source": "SF",
+			"className": "Soul Fighter",
+			"classSource": "SF",
+			"subclassShortName": "Striker-Puncher",
+			"subclassSource": "SF",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"Starting at 7th level, you and any creature within your aura range have advantage on checks against the frightened condition.",
+				"In addition, you can use your bonus action and spend 2 soul points to end the frightened effect on a creature within your aura."
+			]
+		},
+		{
+			"name": "Tactical Punches",
+			"source": "SF",
+			"className": "Soul Fighter",
+			"classSource": "SF",
+			"subclassShortName": "Striker-Puncher",
+			"subclassSource": "SF",
+			"level": 9,
+			"header": 2,
+			"entries": [
+				"At 9th level, you have advantage on attack rolls with unarmed strikes and glove weapons against a creature affected by a maneuver."
+			]
+		},
+		{
+			"name": "Soulful Dominance",
+			"source": "SF",
+			"className": "Soul Fighter",
+			"classSource": "SF",
+			"subclassShortName": "Striker-Puncher",
+			"subclassSource": "SF",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"At 14th level, you master the art of merging physical prowess with your soul's essence, creating a powerful combination of resilience and battlefield control. Whenever you deal damage to a creature with a melee attack enhanced by a maneuver, you gain temporary hit points equal to half your Soul Fighter level + your Con modifier. You can use this feature a number of times equal to your Con modifier (minimum of once), and you regain all expended uses when you finish a short or long rest.",
+				"Additionally, as a bonus action on your turn, you can issue a challenge to your enemies, compelling them to focus their attacks on you. Every hostile creature within your aura range must make a Wis saving throw against your Soul save DC. On a failure, a creature cannot target anyone other than you with its attacks, spells, and abilities until the start of your next turn."
+			]
+		},
+		{
+			"name": "Soulful Resilience",
+			"source": "SF",
+			"className": "Soul Fighter",
+			"classSource": "SF",
+			"subclassShortName": "Striker-Puncher",
+			"subclassSource": "SF",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"At 17th level, Soul Fighters enhance their endurance and protective abilities, combining relentless perseverance with soul-infused defenses.",
+				"When you roll initiative and have fewer than your maximum number of superiority dice remaining, you regain 1 superiority die. This reflects your indomitable spirit and tactical adaptability in combat. Additionally, you gain resistance to the essence types you have chosen.",
+				"As a bonus action, you can spend 5 soul points to gain resistance to slashing, bludgeoning, and piercing damage from non-magical sources for 1 minute. Furthermore, you can spend 8 soul points to extend your resistances. Doing so grants you resistance to both magical and non-magical slashing, bludgeoning, and piercing damage, plus one additional damage type of your choice. This extended resistance also grants immunity to poison damage to any creature of your choice within your aura."
+			]
+		},
+		{
+			"name": "Step Out",
+			"source": "SF",
+			"className": "Soul Fighter",
+			"classSource": "SF",
+			"subclassShortName": "Saint's Boxing",
+			"subclassSource": "SF",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"Starting at 3rd level, when you are targeted by a melee attack, you can move up to 10 feet without using an action or provoking opportunity attacks, potentially causing that attack to miss. You can use this feature a number of times equal to your Dexterity modifier (a minimum of once) and regain all expended uses when you complete a long rest."
+			]
+		},
+		{
+			"name": "Rhythm Abilities",
+			"source": "SF",
+			"className": "Soul Fighter",
+			"classSource": "SF",
+			"subclassShortName": "Saint's Boxing",
+			"subclassSource": "SF",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"**Fast Retreat:** You can force a target within 5 feet to make a Dexterity saving throw. On a failed save, your movement doesn't provoke opportunity attacks, and you can move up to 10 feet.",
+				"**Elusive Movement:** You can force a target within 5 feet to make a Wisdom saving throw. On a failed save, your movement speed increases by 15 feet until the end of this turn, and until the end of your next turn, the target has disadvantage on their next attack roll or saving throw against one of your boxer features."
+			]
+		},
+		{
+			"name": "Soul Healing",
+			"source": "SF",
+			"className": "Soul Fighter",
+			"classSource": "SF",
+			"subclassShortName": "Saint's Boxing",
+			"subclassSource": "SF",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"At 3rd level, you learn to channel your soul's energy to mend wounds. As a reaction when any creature within your aura range is reduced to 0 hit points, you can automatically stabilize that creature. Additionally, you can spend 1 soul point to restore 1d4 + your Constitution modifier hit points to a creature as an action. You can spend additional soul points to restore an extra 1d4 hit points per point spent, up to a maximum of 10d4."
+			]
+		},
+		{
+			"name": "Bonus Proficiencies",
+			"source": "SF",
+			"className": "Soul Fighter",
+			"classSource": "SF",
+			"subclassShortName": "Saint's Boxing",
+			"subclassSource": "SF",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"When you choose this path at 3rd level, you gain proficiency with the Herbalism kit, the Medicine skill, and Heavy Armor. If you already have these proficiencies, you can add twice your proficiency bonus on checks made with them."
+			]
+		},
+		{
+			"name": "Bound to Live",
+			"source": "SF",
+			"className": "Soul Fighter",
+			"classSource": "SF",
+			"subclassShortName": "Saint's Boxing",
+			"subclassSource": "SF",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"At 7th level, on your first turn of combat, you can use your bonus action and spend 6 soul points to choose one creature within your aura's range to protect from death. While the chosen creature remains within range, it cannot suffer instant death from taking damage exceeding its hit point maximum. In addition, instead of falling unconscious when it is reduced to 0 hit points, the creature is instead reduced to a single hit point. This ability cannot target the Soul Knight."
+			]
+		},
+		{
+			"name": "Quick Retreat",
+			"source": "SF",
+			"className": "Soul Fighter",
+			"classSource": "SF",
+			"subclassShortName": "Saint's Boxing",
+			"subclassSource": "SF",
+			"level": 9,
+			"header": 2,
+			"entries": [
+				"At 9th level, you have advantage on Dexterity (Sleight of Hand) checks to use your Feint feature.",
+				"Additionally, as long as you aren't incapacitated and your speed is not 0, you have resistance against non-magical bludgeoning damage from melee attacks."
+			]
+		},
+		{
+			"name": "Soulful Skirmisher",
+			"source": "SF",
+			"className": "Soul Fighter",
+			"classSource": "SF",
+			"subclassShortName": "Saint's Boxing",
+			"subclassSource": "SF",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"At 14th level, you master the art of agile combat and the purifying power of your soul, blending evasive maneuvers with potent healing and cleansing abilities. Soulful Skirmishers are adept at combining swift movements with the ability to cleanse and heal, making them invaluable in both combat and support roles. Their agility allows them to dance around enemies, while their soul's power ensures their allies remain healthy and free from harmful effects.",
+				{
+					"type": "entries",
+					"name": "Ethereal Movement",
+					"entries": [
+						"Starting at 14th level, your movement no longer provokes opportunity attacks. Additionally, whenever you leave the reach of a creature, you can use your reaction to make an opportunity attack against it with an unarmed strike or a glove weapon."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Soul Purification",
+					"entries": [
+						"At 14th level, you gain immunity to poison damage and the poisoned condition. You can use your action and spend 1 soul point to cure any poison or disease affecting an allied creature within your aura. The cured creature also gains advantage on saving throws to resist the effects of poison or disease for the next minute.",
+						"Furthermore, you can channel your soul’s energy to cleanse curses. You can use your action and spend 5 soul points to end a curse on any creature or object within your aura. If the object is a cursed magical item, its curse remains, but this ability breaks its owner’s attunement to the object, allowing it to be removed or discarded.",
+						"**Note:** If so deemed by your Game Master, you may attempt to purify the object entirely. The specifics of that can be worked out between you and them."
+					]
+				}
+			]
+		},
+		{
+			"name": "Soulful Reflexes",
+			"source": "SF",
+			"className": "Soul Fighter",
+			"classSource": "SF",
+			"subclassShortName": "Saint's Boxing",
+			"subclassSource": "SF",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"At 17th level, you have honed your reflexes and soul energy to perfection, allowing you to react swiftly and bolster your defenses with your soul’s power. Soulful Reflexes combine unparalleled agility with the protective power of your soul, allowing you to dominate the battlefield and safeguard your allies with swift, decisive actions.",
+				{
+					"type": "entries",
+					"name": "Dual Reflexes",
+					"entries": [
+						"If you aren't surprised, you can take two turns in the first round of any combat. The first turn is taken at your normal initiative, and the second turn is taken at your initiative minus 10. This allows you to react swiftly and seize the advantage at the start of battle."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Soul Shield",
+					"entries": [
+						"You gain resistance to the essence types you have chosen. As a bonus action, you can spend 4 soul points to gain resistance to slashing, bludgeoning, and piercing damage from non-magical sources for 1 minute.",
+						"Additionally, you can spend 8 soul points to enhance your resistances further. Doing so grants you resistance to both magical and non-magical slashing, bludgeoning, and piercing damage, plus one additional damage type of your choice. This also grants immunity to poison damage for any creature of your choice within the area of your aura."
+					]
+				}
+			]
+		}
+	],
+	"classFluff": [
+		{
+			"name": "Soul Fighter",
+			"source": "SF",
+			"entries": [
+				{
+					"name": "The Soul Fighter",
+					"type": "section",
+					"entries": [
+						"In the heart of a bustling arena, a lone figure stands amidst the roaring crowd, their fists clenched, their eyes burning with an inner fire.  They are a Soul Fighter, a master of combat who channels the energy of their soul to enhance their strikes and protect their allies. With each punch, they unleash a surge of elemental power, their body a conduit for the raw energy that flows within.",
+						"Across a desolate battlefield, a warrior stands defiant, their body wreathed in lightning, their eyes flashing with determination.  They are a Soul Fighter, a protector who stands between the forces of darkness and the innocent.  With each strike, they channel the strength of their soul, their body a weapon forged in the fires of adversity.",
+						"In the depths of a forgotten temple, a lone seeker meditates, their aura shimmering with a soft glow, their hands clasped in prayer.  They are a Soul Fighter, a healer who seeks to mend the wounds of the world and to bring balance to the forces of life and death. With each breath, they channel the essence of their soul, their body a vessel for the healing power that flows from within.",
+						{
+							"type": "entries",
+							"name": "Relentless Training",
+							"entries": [
+								"Soul Fighters are masters of unarmed combat, their bodies honed to perfection through years of rigorous training. They view combat as an art form, a dance of power and precision. Their punches are like thunderbolts, their kicks like lightning strikes. They move with a fluid grace, their bodies flowing from one strike to the next. Their training is not just physical, but also spiritual. They learn to tap into the wellspring of power that lies within their soul, channeling its energy to enhance their abilities. They are warriors of the mind, body, and spirit, their will unbreakable, their determination unyielding."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Elemental Power",
+							"entries": [
+								"Soul Fighters have the ability to channel elemental energy through their bodies, infusing their strikes with fire, lightning, ice, or poison. This elemental power manifests as a vibrant aura that surrounds them, its color reflecting the element they have chosen to master. Some Soul Fighters focus on a single element, honing their skills to become masters of that force. Others embrace the versatility of multiple elements, adapting their fighting style to the situation at hand. Regardless of their chosen path, Soul Fighters are formidable opponents, capable of unleashing devastating attacks that can shatter bone and scorch flesh."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Healing and Protection",
+							"entries": [
+								"While some Soul Fighters embrace the destructive power of their soul, others choose a path of healing and protection. These Soul Fighters channel their energy to mend wounds and shield their allies from harm. Their touch can soothe pain and restore vitality. Their presence on the battlefield is a beacon of hope, a reminder that even in the darkest of times, the power of the soul can prevail."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Soul Strength",
+							"entries": [
+								"The heart of a Soul Fighter's power lies in their ability to draw strength from their soul. This strength manifests in a variety of ways, from enhanced physical abilities to the ability to manipulate the very essence of life. Soul Fighters can sacrifice a portion of their soul's energy to unleash devastating attacks, to heal themselves or their allies, or to bolster their defenses against harm. They are masters of the soul, their will a force to be reckoned with."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Creating a Soul Fighter",
+							"entries": [
+								"The path of the Soul Fighter is not for the faint of heart. It is a path of discipline, dedication, and sacrifice. Those who choose this path are driven by a thirst for power, a desire to protect the innocent, or a yearning to transcend the limitations of the physical world. They are warriors, healers, and mystics, their souls a wellspring of power that they can tap into to achieve greatness."
+							]
+						}
+					],
+					"page": 1,
+					"source": "SF"
+				}
+			]
+		},
+		{
+			"name": "Soul Striker-Puncher",
+			"source": "SF",
+			"entries": [
+				{
+					"name": "Soul Striker-Puncher",
+					"type": "section",
+					"entries": [
+						"Soul Striker-Punchers combine the strategic mindset and tactical prowess of boxer-punchers with the soul-infused combat techniques of Soul Warriors. They see combat as a dance of calculated moves, blending physical strikes with soulful empowerment.",
+						"In the ring or on the battlefield, Soul Striker-Punchers are masters of calculated aggression. They weave between opponents, delivering precise blows while maintaining a constant awareness of their surroundings. They are relentless in their pursuit of victory, their punches carrying the weight of their unwavering will.",
+						"Beyond their physical prowess, Soul Striker-Punchers wield a unique connection to their inner energy, channeling their soul's power to enhance their strikes and control the flow of battle. They can infuse their attacks with elemental force, disrupting enemy formations and weakening their resolve. With their mastery of soul actions, they can manipulate the battlefield to their advantage, creating openings for their allies and delivering devastating finishing blows."
+					],
+					"page": 1,
+					"source": "SF"
+				}
+			]
+		},
+		{
+			"name": "Soulful Saint's Boxing",
+			"source": "SF",
+			"entries": [
+				{
+					"name": "Soulful Saint's Boxing",
+					"type": "section",
+					"entries": [
+						"Soulful Saint's Boxing are agile healers, using their speed to evade attacks while channeling their soul’s energy to aid allies. They excel at maintaining distance from enemies and quickly responding to the needs of their comrades on the battlefield.",
+						"Across battlefields and within sacred temples, Soulful Saint's Boxing embody a harmonious blend of martial prowess and compassionate healing. They are swift and elusive, their movements a blur of motion as they weave through the fray, delivering precise strikes while tending to the wounded. Their punches carry a dual purpose, capable of inflicting pain upon enemies while channeling healing energy to their allies.",
+						"Beyond their physical grace, Soulful Saint's Boxing possess a profound connection to their soul's energy, allowing them to mend wounds, purify afflictions, and even shield their allies from the brink of death. They are beacons of hope on the battlefield, their presence a source of resilience and unwavering support for their companions."
+					]
+					
+				}
+			]
+		}
+	]
+}
